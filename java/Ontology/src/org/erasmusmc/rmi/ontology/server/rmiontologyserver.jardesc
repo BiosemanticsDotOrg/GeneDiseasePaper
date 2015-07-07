@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+<jar path="C:/Inetpub/wwwroot/BioSemantics/RMIOntologyServer.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/Java/org/erasmusmc/rmi/ontology/server/rmiontologyserver.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="true" manifestLocation="/Java/org/erasmusmc/rmi/ontology/server/RMIOntologyServer.MANIFEST" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.databases.mysql{MySQLconnectionPool.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.ids{DatabaseID.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.math.space{DefaultSpace.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.math.space{IntegerIterator.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.math.space{IntegerSpace.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.math.space{Space.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.ontology{Concept.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.ontology{Ontology.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.ontology{OntologyClient.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.ontology{Relation.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.ontology{RelationType.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.ontology{TermStore.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.rmi{RMIProperties.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.rmi.ontology.server{RMIOntologyImplementation.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.rmi.ontology.server{RMIOntologyInterface.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.rmi.ontology.server{RMIOntologyServer.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.rmi.registry{NamedSocketFactory.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.rmi.registry{RMIMasterServer.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.storecaching{StoreMapCaching.java"/>
+<javaElement handleIdentifier="=Java/&lt;org.erasmusmc.utilities{StringUtilities.java"/>
+</selectedElements>
+</jardesc>

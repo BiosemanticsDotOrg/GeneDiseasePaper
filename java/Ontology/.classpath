@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MySQL"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RMI"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Tokenizer"/>
+	<classpathentry kind="lib" path="lib/owlapi-bin.jar"/>
+	<classpathentry kind="lib" path="lib/skosapi.jar"/>
+	<classpathentry kind="lib" path="/Users/mark/Downloads/mysql-connector-java-5.1.31/mysql-connector-java-5.1.31-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/LVG2011"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

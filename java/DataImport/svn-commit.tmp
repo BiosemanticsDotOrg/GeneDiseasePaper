@@ -1,0 +1,9 @@
+Add binaries for Axis 1.4
+
+--This line, and those below, will be ignored--
+
+A    lib/Axis1.4
+AM   lib/Axis1.4/saaj.jar
+AM   lib/Axis1.4/axis-ant.jar
+AM   lib/Axis1.4/axis.jar
+AM   lib/Axis1.4/jaxrpc.jar

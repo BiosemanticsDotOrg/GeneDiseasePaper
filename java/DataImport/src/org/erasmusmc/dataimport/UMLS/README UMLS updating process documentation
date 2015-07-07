@@ -1,0 +1,37 @@
+Kristina Hettne, July 28, 2008 (updated Aug 24, 2011)
+
+UMLS updating process
+
+1.Download most recent database release from UMLS
+2.Run Metamorphosys with the following settings: Level 0 + SNOMED CT
+3.Java Class design for loading into MySQL database:
+	* UMLSLoader is the main class with method calls to make it clear which steps are taken. 
+	* In the rewrite and suppress step, the following is done:
+		a) Removes non-English terms
+		b) Removes terms with more than 255 characters
+		c) Removes terms that are marked as suppressible by NLM
+		d) Removes bad semantic types:
+			1) 71, 185, 78, 171, 122
+			2) If not MeSH: 201, 200, 170, 97, 73, 74, 203, 79, 80, 81, 82, 83, 169, 77, 92, 93, 94
+		e) Suppresses terms with:
+			1) Dosages: "(\\s\\d[\\d.]*\\s?((g )|(ug)|(mg)|(ml)|%)|(\\(ml\\))|(\\(mg\\))|(\\(gm\\))|(\\(ug\\)))", CASE_INSENSITIVE
+			2) Terms containing @: "@"
+			3) EC-numbers: "^EC\\s[0-9]+\\.", CASE_INSENSITIVE
+			4) Terms with more than 100 characters (if not chemical)
+			5) Curly parenthesis (if not chemical): "\\{.*\\}"
+			6) Retired code: "retired code", CASE_INSENSITIVE
+			7) XXX pattern: "xxx", CASE_INSENSITIVE
+			8) Protein weight: "^[0-9]+ ?[kK][dD][aA]?$"
+			9) Misc: "(^|\\s)other(\\s|$)|(deprecated)|(unknown)|(obsolete)|(^no\\s+)|(miscellaneous)|(\\(MMHCC\\))", CASE_INSENSITIVE
+			10) NEC: "(,\\snec$)|(\\s\\(nec\\)$)|(\\s\\[nec\\]$)|(not elsewhere classified)|(unclassified)|(without mention)", CASE_INSENSITIVE
+			11) NOS: "(,\\snos$)|(\\s\\(nos\\)$)|(\\s\\[nos\\]$)|(not otherwise specified)|(not specified)|(unspecified)", CASE_INSENSITIVE
+		f) Rewrites (and adds) terms with:
+			1) Syntactic inversion: ",\\s"
+			2) Possessives: "'s\\s"
+			3) Angular brackets: "<[^<]*>"
+			4) Short token terms (if not chemical): Martijn's short token rule
+			5) Non-essential parantheticals: “(\\[X\\])|(\\[V\\])|\\[D\\]|\\[M\\]|\\[EDTA\\]|\\[SO\\]|\\[Q\\]”, CASE_INSENSITIVE
+			6) End parenthesis contains filtered word: “product”, “body structure”, “disorder” or “procedure”, CASE_INSENSITIVE
+			7) Semantic type: End parenthesis contain semantic type
+
+All files needed can be found on the mi-bios2 under “/home/public/thesauri/<UMLSversion>/”.

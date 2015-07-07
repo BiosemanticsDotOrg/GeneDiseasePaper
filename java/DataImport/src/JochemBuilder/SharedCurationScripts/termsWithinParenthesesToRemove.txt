@@ -1,0 +1,94 @@
+Beilstein Handbook Reference
+petroleum
+natural
+waste stream
+Forbidden
+pig
+pharmaceutical
+pesticide
+mixed isomers
+coal
+Poison, Keep away from food
+European
+Corrosive
+sheep
+Flammable liquid
+Flammable solid
+Poison gas
+reduced
+phosphorylating
+Spontaneously combustible
+Explosive 1.1D
+inj.
+polymer
+Explosive 1.4S
+herbicide
+biological stain
+human reduced
+swine
+free base
+Obs.
+Oil, misc.
+rat
+mineral
+Explosive 1.3G
+Explosive 1.4G
+fungicide
+Secondary nonferrous plant
+all isomers
+insecticide
+Nonflammable gas
+human
+Oxidizer
+root
+anhydrous
+Explosive 1.3C
+Pharmaceutical
+USDA
+Flammable gas
+resin
+antioxidant
+base
+dye
+fruit
+None
+Flammable liquid, Poison, Keep away from food
+Organic peroxide
+rat reduced
+Dangerous when wet
+pyrolysis
+Asteraceae
+Poison
+Poison, Flammable liquid, Keep away from food
+shale oil
+surfactant
+Class 9
+coal tar
+Explosive 1.2D
+seed
+Explosive 1.2G
+Explosive 1.4C
+Explosive 1.4D
+indicator
+Schiff Base
+Street Name
+Dendroaspis polylepis polylepis reduced
+Explosive 1.1G
+Hungarian
+nonionic
+Polymer
+pyrolysis products
+Ranunculaceae
+residues
+solution
+stabilizer
+product
+filter paper
+navigational concept
+in water
+stone
+ingredient
+homeopathic remedy
+genetics
+combination
+qualifier value

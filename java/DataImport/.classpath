@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Ontology"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Peregrine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Medline"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MySQL"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OntologyUtilities"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Casper"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/LVG2011"/>
+	<classpathentry kind="lib" path="lib/jregex1.2_01.jar"/>
+	<classpathentry kind="lib" path="lib/je-3.2.68.jar"/>
+	<classpathentry kind="src" path="/Groundhog"/>
+	<classpathentry kind="lib" path="lib/Axis1.4/axis.jar"/>
+	<classpathentry kind="lib" path="lib/Axis1.4/jaxrpc.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Databases"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

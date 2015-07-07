@@ -1,0 +1,29 @@
+185	Classification
+77	Conceptual Entity
+169	Functional Concept
+102	Group Attribute
+78	Idea or Concept
+170	Intellectual Product
+171	Language
+80	Qualitative Concept
+81	Quantitative Concept
+89	Regulation or Law
+82	Spatial Concept
+79	Temporal Concept
+203	Drug Delivery Device
+74	Medical Device
+75	Research Device
+83	Geographic Area
+91	Biomedical Occupation or Discipline
+90	Occupation or Discipline
+93	Health Care Related Organization
+92	Organization
+94	Professional Society
+95	Self-help or Relief Organization
+60	Diagnostic Procedure
+65	Educational Activity
+58	Health Care Activity
+59	Laboratory Procedure
+63	Molecular Biology Research Technique
+62	Research Activity
+61	Therapeutic or Preventive Procedure

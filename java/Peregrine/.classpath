@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Ontology"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RMI"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Tokenizer"/>
+	<classpathentry kind="src" path="/LVG2011"/>
+	<classpathentry kind="lib" path="/DataImport/lib/Axis1.4/axis.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

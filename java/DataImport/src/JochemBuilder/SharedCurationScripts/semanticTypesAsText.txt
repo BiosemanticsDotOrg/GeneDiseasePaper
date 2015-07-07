@@ -1,0 +1,135 @@
+Drug Delivery Device
+Clinical Attribute
+Clinical Drug
+Inorganic Chemical
+Element, Ion, or Isotope
+Antibiotic
+Archaeon
+Receptor
+Neoplastic Process
+Anatomical Abnormality
+Classification
+Sign or Symptom
+Language
+Intellectual Product
+Functional Concept
+Food
+Substance
+Hazardous or Poisonous Substance
+Indicator, Reagent, or Diagnostic Aid
+Immunologic Factor
+Vitamin
+Enzyme
+Hormone
+Neuroreactive Substance or Biogenic Amine
+Biologically Active Substance
+Biomedical or Dental Material
+Pharmacologic Substance
+Chemical Viewed Functionally
+Lipid
+Carbohydrate
+Amino Acid, Peptide, or Protein
+Organophosphorus Compound
+Nucleic Acid, Nucleoside, or Nucleotide
+Eicosanoid
+Steroid
+Organic Chemical
+Chemical Viewed Structurally
+Chemical
+Group Attribute
+Patient or Disabled Group
+Age Group
+Family Group
+Population Group
+Professional or Occupational Group
+Group
+Self-help or Relief Organization
+Professional Society
+Health Care Related Organization
+Organization
+Biomedical Occupation or Discipline
+Occupation or Discipline
+Regulation or Law
+Carbohydrate Sequence
+Amino Acid Sequence
+Nucleotide Sequence
+Molecular Sequence
+Geographic Area
+Spatial Concept
+Quantitative Concept
+Qualitative Concept
+Temporal Concept
+Idea or Concept
+Conceptual Entity
+Research Device
+Medical Device
+Manufactured Object
+Physical Object
+Entity
+Natural Phenomenon or Process
+Environmental Effect of Humans
+Human-caused Phenomenon or Process
+Phenomenon or Process
+Machine Activity
+Educational Activity
+Governmental or Regulatory Activity
+Molecular Biology Research Technique
+Research Activity
+Therapeutic or Preventive Procedure
+Diagnostic Procedure
+Laboratory Procedure
+Health Care Activity
+Occupational Activity
+Daily or Recreational Activity
+Individual Behavior
+Social Behavior
+Behavior
+Activity
+Event
+Experimental Model of Disease
+Cell or Molecular Dysfunction
+Mental or Behavioral Dysfunction
+Disease or Syndrome
+Pathologic Function
+Genetic Function
+Molecular Function
+Cell Function
+Organ or Tissue Function
+Mental Process
+Organism Function
+Physiologic Function
+Biologic Function
+Injury or Poisoning
+Laboratory or Test Result
+Finding
+Organism Attribute
+Body Substance
+Body Space or Junction
+Body Location or Region
+Gene or Genome
+Cell Component
+Cell
+Tissue
+Body Part, Organ, or Organ Component
+Body System
+Fully Formed Anatomical Structure
+Acquired Abnormality
+Congenital Abnormality
+Embryonic Structure
+Anatomical Structure
+Human
+Mammal
+Reptile
+Fish
+Bird
+Amphibian
+Vertebrate
+Invertebrate
+Animal
+Bacterium
+Rickettsia or Chlamydia
+Virus
+Fungus
+Alga
+Plant
+Organism

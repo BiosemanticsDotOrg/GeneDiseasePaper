@@ -1,0 +1,188 @@
+1|071|Entity|A broad type for grouping physical and conceptual entities.
+  2|077|Conceptual Entity|A broad type for grouping abstract entities or concepts.
+    3|078|Idea or Concept|An abstract concept, such as a social, religious or philosophical concept.
+      4|169|Functional Concept|A concept which is of interest because it pertains to the carrying out of a process or activity.|Interviewer Effect; Problem Formulation; Endogenous; Responsive|||||
+        5|022|Body System|A complex of anatomical structures that performs a common function.
+      4|079|Temporal Concept|A concept which pertains to time or duration.
+      4|080|Qualitative Concept|A concept which is an assessment of some quality, rather than a direct measurement.
+      4|081|Quantitative Concept|A concept which involves the dimensions, quantity or capacity of something using some unit of measure, or which involves the quantitative comparison of entities.
+      4|082|Spatial Concept|A location, region, or space, generally having definite boundaries.
+        5|029|Body Location or Region|An area, subdivision, or region of the body demarcated for the purpose of topographical description.
+        5|030|Body Space or Junction|An area enclosed or surrounded by body parts or organs or the place where two anatomical structures meet or connect.
+        5|083|Geographic Area|A geographic location, generally having definite boundaries.
+        5|085|Molecular Sequence|A broad type for grouping the collected sequences of amino acids, carbohydrates, and nucleotide sequences.  Descriptions of these sequences are generally reported in the published literature and/or are deposited in and maintained by databanks such as GenBank, European Molecular Biology Laboratory (EMBL), National Biomedical Research Foundation (NBRF), or other sequence repositories.
+          6|086|Nucleotide Sequence|The sequence of purines and pyrimidines in nucleic acids and polynucleotides.  Included here are nucleotide-rich regions, conserved sequence, and DNA transforming region.
+          6|087|Amino Acid Sequence|The sequence of amino acids as arrayed in chains, sheets, etc., within the protein molecule.  It is of fundamental importance in determining protein structure.
+          6|088|Carbohydrate Sequence|The sequence of carbohydrates within polysaccharides, glycoproteins, and glycolipids.
+    3|033|Finding|That which is discovered by direct observation or measurement of an organism attribute or condition, including the clinical history of the patient. The history of the presence of a disease is a 'Finding' and is distinguished from the disease itself.
+      4|034|Laboratory or Test Result|The outcome of a specific test to measure an attribute or to determine the presence, absence, or degree of a condition.
+      4|184|Sign or Symptom|An observable manifestation of a disease or condition based on clinical judgment, or a manifestation of a disease or condition which is experienced by the patient and reported as a subjective observation.|Dyspnea; Nausea; Pain; Pallor; Homans' sign|||||
+    3|032|Organism Attribute|A property of the organism or its major parts.
+      4|201|Clinical Attribute|An observable or measurable property or state of an organism of clinical interest.|body density; ALANINE AMINOTRANSFERASE:CATALYTIC CONCENTRATION:POINT IN TIME:SERUM:QUANTITATIVE:WITHOUT P-5'-P; urine acidity|These are the attributes that are being evaluated or measured, not the results of the evaluation.||||
+    3|170|Intellectual Product|A conceptual entity resulting from human endeavor.  Concepts assigned to this type generally refer to information created by humans for some purpose.|Decision Support Techniques; Information Systems; Literature; Population Projection|Concepts referring to theorems, models, and systems are assigned here.  In some cases, a concept may be assigned to both 'Intellectual Product' and 'Research Activity'.  For example, the concept \"Comparative Study\" might be viewed as both an activity and the result, or product, of that activity.||||
+      4|185|Classification|A term or system of terms denoting an arrangement by class or category.|Chemicals and Drugs (MeSH Category); Axis I; Gleason grade 2; C1 certainty|||||
+      4|089|Regulation or Law|An intellectual product resulting from legislative or regulatory activity.
+    3|171|Language|The system of communication used by a particular nation or people.|Afrikaans; Greek, Modern; braille; Adamawa language|||||
+    3|090|Occupation or Discipline|A vocation, academic discipline, or field of study, or a subpart of an occupation or discipline.
+      4|091|Biomedical Occupation or Discipline|A vocation, academic discipline, or field of study related to biomedicine.
+    3|092|Organization|The result of uniting for a common purpose or function.  The continued existence of an organization is not dependent on any of its members, its location, or particular facility.  Components or subparts of organizations are also included here.  Although the names of organizations are sometimes used to refer to the buildings in which they reside, they are not inherently physical in nature.
+      4|093|Health Care Related Organization|An established organization which carries out specific functions related to health care delivery or research in the life sciences.
+      4|094|Professional Society|An organization uniting those who have a common vocation or who are involved with a common field of study.
+      4|095|Self-help or Relief Organization|An organization whose purpose and function is to provide assistance to the needy or to offer support to those sharing similar problems.
+    3|102|Group Attribute|A conceptual entity which refers to the frequency or distribution of certain characteristics or phenomena in certain groups.
+    3|096|Group|A conceptual entity referring to the classification of individuals according to certain shared characteristics.
+      4|100|Age Group|An individual or individuals classified according to their age.
+      4|099|Family Group|An individual or individuals classified according to their family relationships or relative position in the family unit.
+      4|097|Professional or Occupational Group|An individual or individuals classified according to their vocation.
+      4|098|Population Group|An indivdual or individuals classified according to their sex, racial origin, religion, common place of living, financial or social status, or some other cultural or behavioral attribute.
+      4|101|Patient or Disabled Group|An individual or individuals classified according to a disability, disease, condition or treatment.
+  2|072|Physical Object|An object perceptible to the sense of vision or touch.
+    3|017|Anatomical Structure|A normal or pathological part of the anatomy or structural organization of an organism.
+      4|190|Anatomical Abnormality|An abnormal structure, or one that is abnormal in size or location.||Use this type if the abnormality in question can be either an acquired or congenital abnormality.  Neoplasms are not included here.  These are given the type 'Neoplastic Process'.  If an anatomical abnormality has a pathologic manifestation, then it will additionally be given the type 'Disease or Syndrome', e.g., \"Diabetic Cataract\" will be double-typed for this reason.||||
+        5|019|Congenital Abnormality|An abnormal structure, or one that is abnormal in size or location, present at birth or evolving over time as a result of a defect in embryogenesis.
+        5|020|Acquired Abnormality|An abnormal structure, or one that is abnormal in size or location, found in or deriving from a previously normal structure.  Acquired abnormalities are distinguished from diseases even though they may result in pathological functioning (e.g., \"hernias incarcerate\").
+      4|018|Embryonic Structure|An anatomical structure that exists only before the organism is fully formed; in mammals, for example, a structure that exists only prior to the birth of the organism.  This structure may be normal or abnormal.
+      4|021|Fully Formed Anatomical Structure|An anatomical structure in a fully formed organism; in mammals, for example, a structure in the body after the birth of the organism.
+        5|023|Body Part, Organ, or Organ Component|A collection of cells and tissues which are localized to a specific area or combine and carry out one or more specialized functions of an organism.  This ranges from gross structures to small components of complex organs.  These structures are relatively localized in comparison to tissues.
+        5|025|Cell|The fundamental structural and functional unit of living organisms.
+        5|026|Cell Component|A part of a cell or the intercellular matrix, generally visible by light microscopy.
+        5|024|Tissue|An aggregation of similarly specialized cells and the associated intercellular substance.  Tissues are relatively non-localized in comparison to body parts, organs or organ components.
+        5|028|Gene or Genome|A specific sequence, or in the case of the genome the complete sequence, of nucleotides along a molecule of DNA or RNA (in the case of some viruses) which represent the functional units of heredity.
+    3|073|Manufactured Object|A physical object made by human beings.
+      4|200|Clinical Drug|A pharmaceutical preparation as produced by the manufacturer.  The name usually includes the substance, its strength, and the form, but may include the substance and only one of the other two items.|Zovirax Cold Sore 5% cream; sleeping pill; ACETOHEXAMIDE 250 MG tablet|Do not double type with Pharmacologic Substance, Antibiotic, or other chemical semantic types.||||
+      4|074|Medical Device|A manufactured object used primarily in the diagnosis, treatment, or prevention of physiologic or anatomic disorders.
+      4|075|Research Device|A manufactured object used primarily in carrying out scientific research or experimentation.
+    3|001|Organism|Generally, a living individual, including all plants and animals.
+      4|008|Animal|An organism with eukaryotic cells, and lacking stiff cell walls, plastids and photosynthetic pigments.
+        5|009|Invertebrate|An animal which has no spinal column.
+        5|010|Vertebrate|An animal which has a spinal column.
+          6|011|Amphibian|A cold-blooded, smooth-skinned vertebrate which characteristically hatches as an aquatic larva, breathing by gills.  When mature, the amphibian breathes with lungs.
+          6|012|Bird|A vertebrate having a constant body temperature and characterized by the presence of feathers.
+          6|013|Fish|A cold-blooded aquatic vertebrate characterized by fins and breathing by gills.  Included here are fishes having either a bony skeleton, such as a perch, or a cartilaginous skeleton, such as a shark, or those lacking a jaw, such as a lamprey or hagfish.
+          6|015|Mammal|A vertebrate having a constant body temperature and characterized by the presence of hair, mammary glands and sweat glands.
+            7|016|Human|Modern man, the only remaining species of the Homo genus.
+          6|014|Reptile|
+      4|194|Archaeon|A member of one of the three domains of life, formerly called Archaebacteria under the taxon Bacteria, but now considered separate and distinct.  Archaea are characterized by: 1) the presence of characteristic tRNAs and ribosomal RNAs; 2) the absence of peptidoglycan cell walls; 3) the presence of ether-linked lipids built from branched-chain subunits; and 4) their occurrence in unusual habitats.  While archaea resemble bacteria in morphology and genomic organization, they resemble eukarya in their method of genomic replication.|Thermoproteales; Haloferax volcanii; Methanospirillum|||||
+      4|007|Bacterium|A small, typically one-celled, prokaryotic micro-organism.
+      4|004|Fungus|A eukaryotic organism characterized by the absence of chlorophyll and the presence of a rigid cell wall.  Included here are both slime molds and true fungi such as yeasts, molds, mildews, and mushrooms.
+      4|002|Plant|An organism having cellulose cell walls, growing by synthesis of inorganic substances, generally distinguished by the presence of chlorophyll, and lacking the power of locomotion.  Plant parts are included here as well.
+        5|003|Alga|A chiefly aquatic plant that contains chlorophyll, but does not form embryos during development and lacks vascular tissue.
+      4|005|Virus|An organism consisting of a core of a single nucleic acid enclosed in a protective coat of protein.  A virus may replicate only inside a host living cell.  A virus exhibits some but not all of the usual characteristics of living things.
+      4|006|Rickettsia or Chlamydia|An organism intermediate in size and complexity between a virus and a bacterium, and which is parasitic within the cells of insects and ticks. Included here are all the chlamydias, also called \"PLT\" for psittacosis- lymphogranuloma venereum-trachoma.
+    3|167|Substance|A1.4|A material with definite or fairly definite chemical composition.|Air; Foreign Bodies; Fossils; Copper dust|||||
+      4|031|Body Substance|Extracellular material, or mixtures of cells and extracellular material, produced, excreted, or accreted by the body.  Included here are substances such as saliva, dental enamel, sweat, and gastric acid.|Amniotic Fluid; Saliva; Bronchial washings||Y|||
+      4|103|Chemical|Compounds or substances of definite molecular composition.  Chemicals are viewed from two distinct perspectives in the network, functionally and structurally.  Almost every chemical concept is assigned at least two types, generally one from the structure hierarchy and at least one from the function hierarchy.
+        5|120|Chemical Viewed Functionally|A chemical viewed from the perspective of its functional characteristics or pharmacological activities.
+          6|123|Biologically Active Substance|A generally endogenous substance produced or required by an organism, of primary interest because of its role in the biologic functioning of the organism that produces it.
+            7|124|Neuroreactive Substance or Biogenic Amine|An endogenous substance whose activities affect or play an important role in the functioning of the nervous system.  Included here are catecholamines, neuroregulators, neurophysins, etc.
+            7|125|Hormone|In animals, a chemical usually secreted by an endocrine gland whose products are released into the circulating fluid.  Hormones act as chemical messengers and regulate various physiologic processes such as growth, reproduction, metabolism, etc.  They usually fall into two broad classes, steroid hormones and peptide hormones.
+            7|126|Enzyme|A complex chemical, usually a protein, that is produced by living cells and which catalyzes specific biochemical reactions.  There are six main types of enzymes: oxidoreductases, transferases, hydrolases, lyases, isomerases, and ligases.
+            7|127|Vitamin|A substance, usually an organic chemical complex, present in natural products or made synthetically, which is essential in the diet of man or other higher animals.  Included here are vitamin precursors, provitamins, and vitamin supplements.
+            7|129|Immunologic Factor|A biologically active substance whose activities affect or play a role in the functioning of the immune system.
+            7|192|Receptor|A specific structure or site on the cell surface or within its cytoplasm that recognizes and binds with other specific molecules.  These include the proteins on the surface of an immunocompetent cell that binds with antigens, or proteins found on the surface molecules that bind with hormones or neurotransmitters and react with other molecules that respond in a specific way.|Adenosine A2 Receptor; Antigen p150,95; T-Cell Receptors alpha-Chain|||||
+          6|122|Biomedical or Dental Material|A substance used in biomedicine or dentistry predominantly for its physical, as opposed to chemical, properties.  Included here are biocompatible materials, tissue adhesives, bone cements, resins, toothpastes, etc.
+          6|121|Pharmacologic Substance|A substance used in the treatment or prevention of pathologic disorders. This includes substances that occur naturally in the body and are administered therapeutically.
+            7|195|Antibiotic|A1.4.1.1.1.1|A pharmacologically active compound produced by growing microorganisms which kill or inhibit growth of other microorganisms.|Antibiotics; Cephalosporins; Methicillin|||||
+          6|130|Indicator, Reagent, or Diagnostic Aid|A substance primarily of interest for its use in laboratory or diagnostic tests and procedures to detect, measure, examine, or analyze other chemicals, processes, or conditions.
+          6|131|Hazardous or Poisonous Substance|A substance of concern because of its potentially hazardous or toxic effects.  This would include most drugs of abuse, as well as agents that require special handling because of their toxicity.
+        5|104|Chemical Viewed Structurally|A chemical or chemicals viewed from the perspective of their structural characteristics.  Included here are concepts which can mean either a salt, an ion, or a compound (e.g., \"Bromates\" and \"Bromides\").
+          6|109|Organic Chemical|The general class of carbon-containing compounds, usually based on carbon chains or rings, and also containing hydrogen (hydrocarbons), with or without nitrogen, oxygen, or other elements in which the bonding between elements is generally covalent.
+            7|116|Amino Acid, Peptide, or Protein|Amino acids and chains of amino acids connected by peptide linkages.
+            7|118|Carbohydrate|A generic term that includes monosaccharides, oligosaccharides, and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more terminal group to carboxylic acids, or by replacement of one or more hydroxy groups by a hydrogen atom, an amino group, a thiol group or similar heteroatomic groups.  It also includes derivatives of these compounds.  Included here are sugar phosphates. Excluded are glycolipids and glycoproteins.
+            7|119|Lipid|An inclusive group of fat or fat-derived substances that are soluble in nonpolar solvents related to fatty acid esters, fatty alcohols, sterols, waxes, etc.  Included in this group are the saponifiable lipids such as glycerides (fats and oils), essential (volatile) oils, and phospholipids.
+              8|111|Eicosanoid|An oxygenated metabolite from polyunsaturated 20 carbon fatty acids including lipoxygenase and cyclooxygenase products and their synthetic analogs. This includes the prostaglandins and thromboxanes.
+              8|110|Steroid|One of a group of polycyclic, 17-carbon-atom, fused-ring compounds occurring both in natural and synthetic forms.  Included here are naturally occurring and synthetic steroids, bufanolides, cardanolides, homosteroids, norsteroids, and secosteroids.
+            7|114|Nucleic Acid, Nucleoside, or Nucleotide|A complex compound of high molecular weight occurring in living cells. These are basically of two types, ribonucleic (RNA) and deoxyribonucleic (DNA) acids.  Nucleic acids are made of nucleotides (nitrogen-containing base, a 5-carbon sugar, and one or more phosphate group) linked together by a phosphodiester bond between the 5' and 3' carbon atoms.  Nucleosides are compounds composed of a purine or pyrimidine base (usually adenine, cytosine, guanine, thymine, uracil) linked to either a ribose or a deoxyribose sugar.
+            7|115|Organophosphorus Compound|An organic compound containing phosphorus as a constituent.  Included here are organic phosphinic, phosphonic and phosphoric acid derivatives and their thiophosphorus counterparts.  Excluded are phospholipids, sugar phosphates, phosphoproteins, nucleotides, and nucleic acids.
+          6|197|Inorganic Chemical|Chemical elements and their compounds, excluding the hydrocarbons and their derivatives (except carbides, carbonates, cyanides, cyanates and carbon disulfide).  Generally inorganic compounds contain ionic bonds.  Included here are inorganic acids and salts, alloys, alkalies, and minerals.|Carbonic Acid; Sodium Chloride; Talc|||||
+          6|196|Element, Ion, or Isotope|One of the 109 presently known fundamental substances that comprise all matter at and above the atomic level.  This includes elemental metals, rare gases, and most abundant naturally occurring radioactive elements, as well as the ionic counterparts of elements (NA+, Cl-), and the less abundant isotopic forms.  This does not include organic ions such as iodoacetate to which the type 'Organic Chemical' is assigned.|Carbon; Chromium Isotopes; Cobalt Radioisotopes; Deuterium; Radioisotopes; Uranium|Group terms such as sulfates would be assigned to the type 'Chemical Viewed Structurally'.  Substances such as aluminum chloride would be assigned the type 'Inorganic Chemical'.  Technetium Tc 99m Aggregated Albumin would not receive this type.||||
+    3|168|Food|Any substance generally containing nutrients, such as carbohydrates, proteins, and fats, that can be ingested by a living organism and metabolized into energy and body tissue.  Some foods are naturally occurring, others are either partially or entirely made by humans.|Beverages; Egg Yolk; Margarine; Nuts|Food additives, food preservatives, and food dyes should be given the type 'Chemical Viewed Functionally'; \"Diet Coke\" would be assigned this type.||||
+1|051|Event|A broad type for grouping activities, processes and states.
+  2|052|Activity|An operation or series of operations that an organism or machine carries out or participates in.
+    3|053|Behavior|Any of the psycho-social activities of humans or animals that can be observed directly by others or can be made systematically observable by the use of special strategies.
+      4|054|Social Behavior|Behavior that is a direct result or function of the interaction of humans or animals with their fellows.  This includes behavior that may be considered anti-social.
+      4|055|Individual Behavior|Behavior exhibited by a human or an animal that is not a direct result of interaction with other members of the species, but which may have an effect on others.
+    3|056|Daily or Recreational Activity|An activity carried out for recreation or exercise, or as part of daily life.
+    3|057|Occupational Activity|An activity carried out as part of an occupation or job.
+      4|065|Educational Activity|An activity related to the organization and provision of education.
+      4|064|Governmental or Regulatory Activity|An activity carried out by officially constituted governments, or an activity related to the creation or enforcement of the rules or regulations governing some field of endeavor.
+      4|058|Health Care Activity|An activity of or relating to the practice of medicine or involving the care of patients.
+        5|060|Diagnostic Procedure|A procedure, method, or technique used to determine the nature or identity of a disease or disorder.  This excludes procedures which are primarily carried out on specimens in a laboratory.
+        5|059|Laboratory Procedure|A procedure, method, or technique used to determine the composition, quantity, or concentration of a specimen, and which is carried out in a clinical laboratory.  Included here are procedures which measure the times and rates of reactions.
+        5|061|Therapeutic or Preventive Procedure|A procedure, method, or technique designed to prevent a disease or a disorder, or to improve physical function, or used in the process of treating a disease or injury.
+      4|062|Research Activity|An activity carried out as part of research or experimentation.
+        5|063|Molecular Biology Research Technique|Any of the techniques used in the study of or the directed modification of the gene complement of a living organism.
+    3|066|Machine Activity|An activity carried out primarily or exclusively by machines.
+  2|067|Phenomenon or Process|A process or state which occurs naturally or as a result of an activity.
+    3|068|Human-caused Phenomenon or Process|A phenomenon or process that is a result of the activities of human beings.
+      4|069|Environmental Effect of Humans|A change in the natural environment that is a result of the activities of human beings.
+    3|037|Injury or Poisoning|A traumatic wound, injury, or poisoning caused by an external agent or force.
+    3|070|Natural Phenomenon or Process|A phenomenon or process that occurs irrespective of the activities of human beings.
+      4|038|Biologic Function|A state, activity or process of the body or one of its systems or parts.
+        5|039|Physiologic Function|A normal process, activity, or state of the body.
+          6|043|Cell Function|A physiologic function inherent to cells or cell components.
+          6|044|Molecular Function|A physiologic function occurring at the molecular level.
+            7|045|Genetic Function|Functions of or related to the maintenance, translation or expression of the genetic material.
+          6|042|Organ or Tissue Function|A physiologic function of a particular organ, organ system, or tissue.
+          6|040|Organism Function|A physiologic function of the organism as a whole, of multiple organ systems, or of multiple organs or tissues.
+            7|041|Mental Process|A physiologic function involving the mind or cognitive processing.
+        5|046|Pathologic Function|A disordered process, activity, or state of the organism as a whole, of a body system or systems, or of multiple organs or tissues.  Included here are normal responses to a negative stimulus as well as patholologic conditions or states that are less specific than a disease.  Pathologic functions frequently have systemic effects.
+          6|049|Cell or Molecular Dysfunction|A pathologic function inherent to cells, parts of cells, or molecules.
+          6|047|Disease or Syndrome|A condition which alters or interferes with a normal process, state, or activity of an organism.  It is usually characterized by the abnormal functioning of one or more of the host's systems, parts, or organs.  Included here is a complex of symptoms descriptive of a disorder.
+            7|048|Mental or Behavioral Dysfunction|A clinically significant dysfunction whose major manifestation is behavioral or psychological.  These dysfunctions may have identified or presumed biological etiologies or manifestations.
+	    7|191|Neoplastic Process|A new and abnormal growth of tissue in which the growth is uncontrolled and progressive.  The growths may be malignant or benign.|Abdominal Neoplasms; stage IVB vaginal cancer; tonsillar lymphoepithelioma|All neoplasms are assigned to this type.  Do not also assign a type from the 'Anatomical Abnormality' hierarchy.
+          6|050|Experimental Model of Disease|A representation in a non-human organism of a human disease for the purpose of research into its mechanism or treatment.
+1|166|associated_with|has a significant or salient relationship to.
+  2|132|physically_related_to|Related by virtue of some physical attribute or characteristic.
+    3|198|branch_of|Arises from the division of.  For example, the arborization of arteries.
+    3|174|connected_to|Directly attached to another physical unit as tendons are connected to muscles.  This includes attached to and anchored to.
+    3|172|consists_of|Is structurally made up of in whole or in part of some material or matter. This includes composed of, made of, and formed of.
+    3|134|contains|Holds or is the receptacle for fluids or other substances.  This includes is filled with, holds, and is occupied by.
+    3|202|ingredient_of|Is a component of, as in a constituent of a preparation.
+    3|175|interconnects|Serves to link or join together two or more other physical units.  This includes joins, links, conjoins, articulates, separates, and bridges.
+    3|133|part_of|Composes, with one or more other physical units, some larger whole.  This includes component of, division of, portion of, fragment of, section of, and layer of.
+    3|199|tributary_of|Merges with.  For example, the confluence of veins.
+  2|189|spatially_related_to|Related by place or region.
+    3|173|adjacent_to|Close to, near or abutting another physical unit with no other structure of the same kind intervening.  This includes adjoins, abuts, is contiguous to, is juxtaposed, and is close to.
+    3|135|location_of|The position, site, or region of an entity or the site of a process.
+    3|176|surrounds|Establishes the boundaries for, or defines the limits of another physical structure.  This includes limits, bounds, confines, encloses, and circumscribes.
+    3|177|traverses|Crosses or extends across another physical structure or area.  This includes crosses over and crosses through.
+  2|139|functionally_related_to|Related by the carrying out of some function or activity.
+    3|151|affects|Produces a direct effect on.  Implied here is the altering or influencing of an existing condition, state, situation, or entity.  This includes has a role in, alters, influences, predisposes, catalyzes, stimulates, regulates, depresses, impedes, enhances, contributes to, leads to, and modifies.
+      4|153|manages|Administers, or contributes to the care of an individual or group of individuals.
+      4|154|treats|Applies a remedy with the object of effecting a cure or managing a condition.
+      4|146|disrupts|Alters or influences an already existing condition, state, or situation. Produces a negative effect on.
+      4|149|complicates|Causes to become more severe or complex or results in adverse effects.
+      4|142|interacts_with|Acts, functions, or operates together with.
+      4|148|prevents|Stops, hinders or eliminates an action or condition.
+    3|187|brings_about|Acts on or influences an entity.
+      4|144|produces|Brings forth, generates or creates.  This includes yields, secretes, emits, biosynthesizes, generates, releases, discharges, and creates.
+      4|147|causes|Brings about a condition or an effect.  Implied here is that an agent, such as for example, a pharmacologic substance or an organism, has brought about the effect.  This includes induces, effects, evokes, and etiology.
+    3|188|performs|Executes, accomplishes, or achieves an activity.
+      4|141|carries_out|Executes a function or performs a procedure or activity.  This includes transacts, operates on, handles, and executes.
+      4|145|exhibits|Shows or demonstrates.
+      4|143|practices|Performs habitually or customarily.
+    3|152|occurs_in|Takes place in or happens under given conditions, circumstances, or time periods, or in a given location or population.  This includes appears in, transpires, comes about, is present in, and exists in.
+      4|140|process_of|Action, function, or state of.
+    3|155|uses|Employs in the carrying out of some activity.  This includes applies, utilizes, employs, and avails.
+    3|150|manifestation_of|That part of a phenomenon which is directly observable or concretely or visibly expressed, or which gives evidence to the underlying process.  This includes expression of, display of, and exhibition of.
+    3|156|indicates|Gives evidence for the presence at some time of an entity or process.
+    3|157|result_of|The condition, product, or state occurring as a consequence, effect, or conclusion of an activity or process.  This includes product of, effect of, sequel of, outcome of, culmination of, and completion of.
+  2|136|temporally_related_to|Related in time by preceding, co-occuring with, or following.
+    3|137|co-occurs_with|Occurs at the same time as, together with, or jointly.  This includes is co-incident with, is concurrent with, is contemporaneous with, accompanies, coexists with, and is concomitant with.
+    3|138|precedes|Occurs earlier in time.  This includes antedates, comes before, is in advance of, predates, and is prior to.
+  2|158|conceptually_related_to|Related by some abstract concept, thought, or idea.
+    3|193|analyzes|Studies or examines using established quantitative or qualitative methods.
+      4|164|assesses_effect_of|Analyzes the influence or consequences of the function or action of.
+    3|160|conceptual_part_of|Conceptually a portion, division, or component of some larger whole.
+    3|161|evaluation_of|Judgment of the value or degree of some attribute or process.
+    3|180|degree_of|The relative intensity of a process or the relative intensity or amount of a quality or attribute.
+    3|182|measurement_of|The dimension, quantity, or capacity determined by measuring.
+    3|162|measures|Ascertains or marks the dimensions, quantity, degree, or capacity of.
+    3|163|diagnoses|Distinguishes or identifies the nature or characteristics of.
+    3|159|property_of|Characteristic of, or quality of.
+    3|178|derivative_of|In chemistry, a substance structurally related to another or that can be made from the other substance.  This is used only for structural relationships. This does not include functional relationships such as metabolite of, by product of, nor analog of.||||DO|has_derivative|
+    3|179|developmental_form_of|An earlier stage in the individual maturation of.
+    3|183|method_of|The manner and sequence of events in performing an act or procedure.
+    3|165|issue_in|Is an issue in or a point of discussion, study, debate, or dispute.
+1|186|isa|The basic hierarchical link in the Network.  If one item \"isa\" another item then the first item is more specific in meaning than the second item.

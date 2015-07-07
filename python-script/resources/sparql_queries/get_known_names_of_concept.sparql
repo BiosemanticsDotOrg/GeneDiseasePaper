@@ -1,0 +1,13 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix biosem: <http://rdf.biosemantics.org/emco/v1.5/vocabularies/>
+prefix biosemProp: <http://rdf.biosemantics.org/emco/properties/>
+
+SELECT distinct ?label ?altLabel ?preLabel {
+
+    ?concept rdfs:label ?label.
+
+optional { ?concept biosemProp:altLabel_NO ?altLabel}
+optional { ?concept biosemProp:prefLabel_NO  ?preLabel}
+
+}

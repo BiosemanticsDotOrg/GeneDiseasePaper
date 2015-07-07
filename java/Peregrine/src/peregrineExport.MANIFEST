@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lvg2006dist.jar
+Main-Class: org.erasmusmc.rmi.peregrine.server.RMIKnewcoPeregrineServer
