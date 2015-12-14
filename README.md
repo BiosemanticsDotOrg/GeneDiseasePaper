@@ -1,6 +1,6 @@
-# GeneDiseasePlosBio
+# Gene-Disease Paper
 
-This repository contains the source code for all concept-profile work described in the paper: "The implicitome: a resource for inferring gene-disease associations" (submitted to Plos Biology). Supplemental data available in DataDryad: http://dx.doi.org/10.5061/dryad.gn219  
+This repository contains the source code for all concept-profile work described in the paper: "The implicitome: a resource for inferring gene-disease associations". Supplemental data available in DataDryad: http://dx.doi.org/10.5061/dryad.gn219  
 
 The starting point for creating a new literature index is: 
 ./java/DataImport/src/Anni/LiteratureUpdateMasterScript.java
