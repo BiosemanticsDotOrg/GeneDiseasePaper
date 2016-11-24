@@ -35,7 +35,7 @@ package KnowledgeTransfer;
  *
  */
 public class PathConfigs {
-	public static final String CPGP_BASE_DIR                 = "/tmp/cpgp/"; // "/media/Meuk/Groundhogs/";
+	public static final String CPGP_BASE_DIR                 = "/Users/mark/cprofiles/pipelinerun/"; // "/media/Meuk/Groundhogs/";
 	public static final String CONCEPT_FREQUENCIES_FILENAME  = CPGP_BASE_DIR + "conceptid2frequency.txt";
 	public static final String MEDLINE_GROUNDHOG_FOLDER_NAME = "groundhogs/Medline1980till17Jul2014_UMLS2010ABHomologeneJochemToxV1_6/";
 

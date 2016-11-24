@@ -30,14 +30,12 @@ import org.erasmusmc.groundhog.Groundhog;
 import org.erasmusmc.groundhog.GroundhogManager;
 import org.erasmusmc.ontology.ConceptVector;
 import org.erasmusmc.ontology.ConceptVectorRecord;
-
+import static KnowledgeTransfer.PathConfigs.CONCEPT_FREQUENCIES_FILENAME;
+import static KnowledgeTransfer.PathConfigs.MEDLINE_GROUNDHOG_FOLDER_NAME;
+import static KnowledgeTransfer.PathConfigs.CPGP_BASE_DIR;
 
 public class ConceptFrequencies {
 	
-	public static final String GROUNDHOG_BASE_DIR            = "/tmp/cpgp/groundhogs/";
-	public static final String CONCEPT_FREQUENCIES_FILENAME  = "/tmp/results/" + "conceptid2frequency.txt";
-	public static final String MEDLINE_GROUNDHOG_FOLDER_NAME = "Medline1980till17Jul2014_UMLS2010ABHomologeneJochemToxV1_6";
-
 		public static void main(String[] args) {
 
 			//This script is designed to parse the old format of the medline groundhog to
@@ -46,11 +44,11 @@ public class ConceptFrequencies {
 			// where the first column is the CID and the second column are the number of articles that concept
 			// occurs is. 
 			// This flat file is imported into SQLite3
-
-			GroundhogManager groundhogmanager2 = new GroundhogManager(GROUNDHOG_BASE_DIR);
+                        System.out.println("dir " + CPGP_BASE_DIR);
+			GroundhogManager groundhogmanager2 = new GroundhogManager(CPGP_BASE_DIR);
 			Groundhog documentProfilesGroundhog = groundhogmanager2.getGroundhog(MEDLINE_GROUNDHOG_FOLDER_NAME);
 			Iterator<ConceptVectorRecord> iter = documentProfilesGroundhog.getIterator();
-			HashMap<Integer,Integer> cid2pmidcount = new HashMap<Integer, Integer>();
+			HashMap<Integer,Integer> cid2pmidcount = new HashMap<>();
 			
 
 			int count = 0;
